@@ -17,6 +17,7 @@ class PyLibsonata(PythonPackage):
 
     version("develop", branch="master")
     version("master", branch="master")
+    version("0.1.32", sha256="27efeda7962fa79df567a9b7e189b875c2db6aa9a35e578322c7eb8eda564311")
     version("0.1.31", sha256="4de060b4c613f706a28cb0ef267b8a05dfbe3cdc7d1f5e3694c0a1ba103e19cf")
     version("0.1.30", sha256="964c50235456f8e1d2e75b0c35e9a19d645046f701f28cbcde33bf0b9c9e0084")
     version("0.1.28", sha256="9421366a2b2cd5b3c0d0f62a5aaea852949e60bac3032a3161bf0bbb107dada9")
