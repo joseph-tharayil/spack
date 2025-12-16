@@ -28,7 +28,7 @@ class PyLibsonata(PythonPackage):
     depends_on("cmake@3.16:", type="build")
     depends_on("fmt@7.1:")
     depends_on("hdf5@1.14:")
-    depends_on("highfive@2.9:")
+    depends_on("highfive@2.9")
     depends_on("nlohmann-json@3.9.1")
     depends_on("py-pybind11@2.11.0:")
 
@@ -38,3 +38,9 @@ class PyLibsonata(PythonPackage):
 
     def patch(self):
         filter_file("-DEXTLIB_FROM_SUBMODULES=ON", "-DEXTLIB_FROM_SUBMODULES=OFF", "setup.py")
+
+    def cmake_args(self):
+        return [
+            "-DEXTLIB_FROM_SUBMODULES=OFF"
+        ]
+
