@@ -17,7 +17,7 @@ class Highfive(CMakePackage):
     version("master", branch="master")
     version("2.10.0", sha256="c29e8e1520e7298fabb26545f804e35bb3af257005c1c2df62e39986458d7c38")
     version(
-        "2.9.0",
+        "2.9",
         sha256="6301def8ceb9f4d7a595988612db288b448a3c0546f6c83417dab38c64994d7e",
         deprecated=True,
     )
