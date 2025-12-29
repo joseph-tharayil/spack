@@ -11,7 +11,7 @@ class PyLibsonata(PythonPackage):
 
     homepage = "https://github.com/openbraininstitute/libsonata"
     git = "https://github.com/openbraininstitute/libsonata.git"
-    pypi = "libsonata/libsonata-0.1.14.tar.gz"
+    pypi = "libsonata/libsonata-0.1.32.tar.gz"
 
     maintainers("cattabiani", "mikeg")
 
