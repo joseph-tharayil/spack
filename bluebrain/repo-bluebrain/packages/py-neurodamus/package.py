@@ -15,6 +15,7 @@ class PyNeurodamus(PythonPackage):
     version("develop", branch="main")
     version("3.13.0",git="https://github.com/openbraininstitute/neurodamus.git",branch="weji/stimulus_electrodes")
     version("3.12.10.5",git="https://github.com/joseph-tharayil/neurodamus.git",branch="stimulus-electrodes-testing-generalized")
+    version("3.11.3",git="https://github.com/joseph-tharayil/neurodamus.git",branch="minimal-electrode-test")
     version("3.11.2",git="https://github.com/joseph-tharayil/neurodamus.git",branch="stimulus-electrodes-testing")
     version("3.10.0", sha256="7ae17ca8ba86abb457dbecbc841eac29dcccb0b4a6a03fff98bb02da15d6aea8")
     version("3.9.0", sha256="eef43faf7dcbf8142bcd705d486542f571273beef87c1ee8b365ce8e291297cb")
