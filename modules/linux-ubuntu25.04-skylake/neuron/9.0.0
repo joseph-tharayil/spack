@@ -1,0 +1,37 @@
+#%Module1.0
+## Module file created by spack (https://github.com/spack/spack) on 2025-12-30 20:45:46.793345
+##
+## neuron@9.0.0%gcc@14.2.0~backtrace~caliper+coreneuron~gpu~interviews~ipo~legacy-unit+mpi~openmp~prcellstate+python+report~rx3d+shared~sympy~sympyopt~tests build_system=cmake build_type=RelWithDebInfo generator=make model_tests=None sanitizers=None arch=linux-ubuntu25.04-skylake/r4n7e7o
+##
+## Configure options: -DNRN_ENABLE_BACKTRACE:BOOL=OFF -DNRN_ENABLE_CORENEURON:BOOL=ON -DNRN_ENABLE_INTERVIEWS:BOOL=OFF -DNRN_ENABLE_MPI:BOOL=ON -DNRN_ENABLE_PYTHON:BOOL=ON -DNRN_ENABLE_RX3D:BOOL=OFF -DNRN_ENABLE_TESTS:BOOL=OFF -DCORENRN_ENABLE_SHARED:BOOL=ON -DPYTHON_EXECUTABLE:STRING=/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/python-3.11.6-klbfsyy3ctjyl2adg2yfewmalhmcpj3y/bin/python3.11 -DCORENRN_ENABLE_SPLAYTREE_QUEUING:STRING=ON -DCORENRN_ENABLE_TIMEOUT:STRING=OFF -DCORENRN_ENABLE_OPENMP:BOOL=OFF -DCORENRN_ENABLE_LEGACY_UNITS:BOOL=OFF -DCORENRN_ENABLE_UNIT_TESTS:BOOL=OFF -DCORENRN_NMODL_FLAGS:STRING=codegen --force -DNRN_ENABLE_MATH_OPT:STRING=ON -DCMAKE_CXX_FLAGS:STRING=-march=skylake -mtune=skylake -DCORENRN_NMODL_FLAGS:STRING= -DNRN_AVOID_ABSOLUTE_PATHS:STRING=ON -DNRN_ENABLE_MPI_DYNAMIC:STRING=ON -DCORENRN_ENABLE_REPORTING:BOOL=ON
+##
+
+
+module-whatis {NEURON is a simulation environment for single and networks of neurons.}
+
+proc ModulesHelp { } {
+    puts stderr {Name   : neuron}
+    puts stderr {Version: 9.0.0}
+    puts stderr {Target : skylake}
+    puts stderr {}
+    puts stderr {NEURON is a simulation environment for single and networks of neurons.}
+    puts stderr {NEURON is a simulation environment for modeling individual and networks}
+    puts stderr {of neurons. NEURON models individual neurons via the use of sections}
+    puts stderr {that are automatically subdivided into individual compartments, instead}
+    puts stderr {of requiring the user to manually create compartments.}
+}
+
+
+prepend-path PATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/neuron-9.0.0-r4n7e7omhihfbv5ewhp4gaox3xnztw2u/bin}
+prepend-path PKG_CONFIG_PATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/neuron-9.0.0-r4n7e7omhihfbv5ewhp4gaox3xnztw2u/lib/pkgconfig}
+prepend-path CMAKE_PREFIX_PATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/neuron-9.0.0-r4n7e7omhihfbv5ewhp4gaox3xnztw2u/.}
+prepend-path PATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/neuron-9.0.0-r4n7e7omhihfbv5ewhp4gaox3xnztw2u/bin}
+prepend-path LD_LIBRARY_PATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/neuron-9.0.0-r4n7e7omhihfbv5ewhp4gaox3xnztw2u/lib}
+prepend-path PYTHONPATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/neuron-9.0.0-r4n7e7omhihfbv5ewhp4gaox3xnztw2u/lib/python}
+setenv MPICXX_CXX {/usr/bin/g++}
+prepend-path PYTHONPATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/py-packaging-23.1-hd3vbbbpwxh5vpjtgcemibqodus7bosj/lib/python3.11/site-packages}
+prepend-path PATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/python-3.11.6-klbfsyy3ctjyl2adg2yfewmalhmcpj3y/bin}
+prepend-path PYTHONPATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/py-pyyaml-6.0-g5t6jzaiso5wjxzgnbwf7dhg6xt7c4e6/lib/python3.11/site-packages}
+prepend-path PYTHONPATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/py-markupsafe-2.1.3-zufklcjoygfj7pkzizpdgcoxm52q73cd/lib/python3.11/site-packages}
+prepend-path PYTHONPATH {/home/joseph-tharayil/Documents/eStim/spack/opt/spack/linux-ubuntu25.04-skylake/gcc-14.2.0/py-jinja2-3.1.2-c4sos4m34bb3agymg7y4oi6iwvd75sip/lib/python3.11/site-packages}
+

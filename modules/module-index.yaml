@@ -1,0 +1,22 @@
+module_index:
+  wf3ekdzqhsynr6j4tta37kflgwtoktc5:
+    path: /home/joseph-tharayil/Documents/eStim/spack/modules/linux-ubuntu25.04-skylake/neurodamus-neocortex/2.4.2
+    use_name: neurodamus-neocortex/2.4.2
+  r4n7e7omhihfbv5ewhp4gaox3xnztw2u:
+    path: /home/joseph-tharayil/Documents/eStim/spack/modules/linux-ubuntu25.04-skylake/neuron/9.0.0
+    use_name: neuron/9.0.0
+  bditr2d4lami2vmt3nazd22iutkkbcug:
+    path: /home/joseph-tharayil/Documents/eStim/spack/modules/linux-ubuntu25.04-skylake/py-neurodamus/develop
+    use_name: py-neurodamus/develop
+  msgrwvqaxo3v3vsn2rlyiq7rctekggvb:
+    path: /home/joseph-tharayil/Documents/eStim/spack/modules/linux-ubuntu25.04-skylake/neurodamus-default/2.4.2
+    use_name: neurodamus-default/2.4.2
+  mohpcjirvyvaqzltwtuggbxaymqtj5ea:
+    path: /home/joseph-tharayil/Documents/eStim/spack/modules/linux-ubuntu25.04-skylake/py-neurodamus/3.13.0
+    use_name: py-neurodamus/3.13.0
+  7rw4dfyhmstdpl5syom3qjtu7nqorowo:
+    path: /home/joseph-tharayil/Documents/eStim/spack/modules/linux-ubuntu25.04-skylake/neurodamus-default/2.4.2
+    use_name: neurodamus-default/2.4.2
+  bka3kiym6r4viddb22pqijhxvetack3v:
+    path: /home/joseph-tharayil/Documents/eStim/spack/modules/linux-ubuntu25.04-skylake/py-neurodamus/3.13.0
+    use_name: py-neurodamus/3.13.0

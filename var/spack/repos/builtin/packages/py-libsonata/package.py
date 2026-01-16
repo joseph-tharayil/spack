@@ -10,7 +10,7 @@ class PyLibsonata(PythonPackage):
     """SONATA files reader"""
 
     homepage = "https://github.com/openbraininstitute/libsonata"
-    git = "https://github.com/openbraininstitute/libsonata.git"
+    git = "https://github.com/joseph-tharayil/libsonata.git"
     pypi = "libsonata/libsonata-0.1.32.tar.gz"
 
     maintainers("cattabiani", "mikeg")
