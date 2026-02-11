@@ -13,6 +13,7 @@ class PyNeurodamus(PythonPackage):
     pypi = "neurodamus/neurodamus-3.1.1.tar.gz"
 
     version("develop", branch="main")
+    version("3.13.1",git="https://github.com/openbraininstitute/neurodamus.git",branch="weji/stimulus_electrodes")
     version("3.13.1",git="https://github.com/joseph-tharayil/neurodamus.git",branch="newStimulus-minimal")
     version("3.13.0.1",git="https://github.com/joseph-tharayil/neurodamus.git",branch="weji/stimulus_electrodes")
     version("3.12.10.5",git="https://github.com/joseph-tharayil/neurodamus.git",branch="stimulus-electrodes-testing-generalized")
